@@ -1,0 +1,131 @@
+@media (max-width: 576px){
+    .top-nav {
+        padding: 9px;
+        justify-content: center;
+        align-items: center;
+        /* max-width: 100%; */
+    }
+    .header-body {
+
+    }
+
+
+    .header-body .right-section{
+        display: none;
+    }
+    .header-body .left-section {
+        width: 100%;
+        padding: 20px;
+    }
+    .left-section h1 {
+        font-size: 50px;
+    }
+    .left-section p {
+        width: 100%;
+    }
+
+    .hexagon-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .hide-resp {
+        display: none !important;
+    }
+
+    .experience-inner {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .experience-inner img {
+        margin-left: 0px;
+    }
+    .experience-box {
+        width: 100%;
+        position: initial;
+    }
+
+    .Automation div {
+        max-width: 320px;
+        /* margin-left: 140px; */
+        margin: auto;
+        min-width: 136px;
+        padding: 20px;
+    }
+
+    .distribution__cardThirdIcons___lYECv {
+        align-self: center;
+        background: #fff;
+        box-shadow: 1.04167vw -1.04167vw 0 #f556a0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 260px;
+        margin-right: 5.2083vw;
+        padding: 2.60416666667vw;
+        width: 280px;
+      }
+      .Automation div h4 {
+        font-size: 40px;
+      }
+      .distribution__cardThirdIcon___FzDco img {
+        width: 35px;
+      }
+      .slider-inner .img-container {
+        width: 78px;
+        height: 39px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-inner {
+        gap: 20px;
+    }
+    header {
+        height: 440px;
+    }
+    .header-body {
+        padding-top: 100px;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+    nav {
+        padding: 10px;
+    }
+
+    .open-ham {
+        display: none;
+      }
+      
+      .show {
+        display: block;
+      }
+      
+      .links.open-ham ul {
+        flex-direction: column;
+        
+        background: white;
+        position: absolute;
+        right: 0px;
+        top: 56px;
+        padding: 10px 40px;
+      }
+
+      .links.open-ham ul li {
+        padding: 10px;
+        cursor: pointer;
+      }
+
+}
+
+ 
+
+@media (min-width: 577px) and (max-width: 123455px) {
+    .webhide {
+        display: none;
+    }
+}
