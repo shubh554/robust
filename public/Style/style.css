@@ -511,7 +511,7 @@ i.fa.fa-cart-plus {
 
 .slider-inner .img-container {
   width: 190px;
-  height: 80px;
+  /* height: 80px; */
   object-fit: cover;
   display: flex;
   justify-content: center;
